@@ -15,6 +15,7 @@
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       class="form"
       method="POST"
+      onsubmit="onSubmit()"
     >
       <fieldset class="form__block">
         <legend>Personal information</legend>
@@ -143,7 +144,7 @@
 
         <br>
 
-        <label for="cars" class="form__label extra-space block">
+        <label for="cars" class="extra-space block">
           What are your favorite  brand of cars?
         </label>
         <select
@@ -191,7 +192,7 @@
         </select>
       </fieldset>
 
-      <button type="submit" onsubmit="onSubmit()">Submit</button>
+      <button type="submit">Submit</button>
     </form>
   </body>
 </html>
